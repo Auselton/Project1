@@ -5,12 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
   </head>
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
-    crossorigin="anonymous"
-  />
   <body>
     <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
@@ -49,8 +43,9 @@
       </div>
     </nav>
   </div>
-    <div class="container">
-        <form  action="https://formspree.io/f/xeogjake"
+  <div class="container text-left">
+    <div class="row row-cols-2">
+      <div class="col"><form  action="https://formspree.io/f/xeogjake"
         method="POST">
             <div class="form-group">
                 <label for="exampleInputEmail1">First Name</label>
@@ -84,9 +79,37 @@
                 <textarea name="Message" id="textbox" placeholder="Hello," cols="30" rows="10"></textarea>
             </div>
                 <div>  
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-warning">Submit</button>
                 </div>
-    </form>
+            </div>
+         <div id="ContactUs" class="container">
+                <div class="col">
+                    <img src="./Images/Contact Us.png" alt="ContactUs">
+                        <Style>
+                            img {
+                                margin-top: 45%;
+                                margin-left: 10%;
+                                margin-right: 20%;
+                                width: 500px;
+                            }
+                        </Style>
+                    </div>
+         </div>
+                <div class="col" id="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d165272.3276019898!2d-97.01494043652401!3d37.688558266396285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1745286164310!5m2!1sen!2sus" width="600" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+        <div class="container">
+             <div class="col">
+                    <img src="./Images/Generalinfo.png" alt="General Info">
+                    <style>
+                        img {
+                            margin-top: 0%;
+                            margin-bottom: 70%;
+                            height: 450px;
+                        }
+                    </style>
+                 </div>
+           </div>
         </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
