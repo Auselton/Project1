@@ -1,0 +1,30 @@
+body {
+    background-color: salmon;
+}
+#kidslego {
+    color: white;
+}
+.logo-container {
+    position: center;
+    top:35%; /* Adjust as needed */
+    left: 30%;  /* Adjust as needed */
+    z-index: 2000; /* Ensure it's above other content */
+  }
+  
+  .logo-container img {
+    width: 500px; /* Adjust as needed */
+    height: auto;
+  }
+  .header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+  }
+  .header-image {
+    background-image: url('./Images/ChildrenPlaying.jpg'); /* Replace with the path to your image */
+    background-size: cover; /* Ensures the image covers the entire header */
+    height: 600px; /* Set a desired height for the header (adjust as needed) */
+    /* Optional:  Additional styles like background-position, text-align, etc. */
+}
