@@ -1,5 +1,5 @@
 body {
-    background-color: salmon;
+    background-color: turquoise;
 }
 #kidslego {
     color: white;
@@ -16,15 +16,18 @@ body {
     height: auto;
   }
   .header {
-    padding: 60px;
     text-align: center;
-    background: #1abc9c;
+    background: turquoise;
     color: white;
     font-size: 30px;
+    background-size: cover;
   }
   .header-image {
     background-image: url('./Images/ChildrenPlaying.jpg'); /* Replace with the path to your image */
     background-size: cover; /* Ensures the image covers the entire header */
     height: 600px; /* Set a desired height for the header (adjust as needed) */
     /* Optional:  Additional styles like background-position, text-align, etc. */
+}
+body {
+    color: white;
 }
