@@ -10,8 +10,14 @@ body {
     left: 30%;  /* Adjust as needed */
     z-index: 2000; /* Ensure it's above other content */
   }
+
+  #logo-image {
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
   
-  .logo-container img {
+  #logo-container img {
     width: 700px; /* Adjust as needed */
     height: auto;
     background-position: center;
@@ -23,10 +29,10 @@ body {
     font-size: 30px;
     background-size: cover;
   }
-  .header-image {
+  #header-image {
     background-image: url('./Images/ChildrenPlaying.jpg'); /* Replace with the path to your image */
     background-size: cover; /* Ensures the image covers the entire header */
-    height: 600px; /* Set a desired height for the header (adjust as needed) */
+    width: 100%; /* Set a desired height for the header (adjust as needed) */
      background-image: url(./Images/ChildrenPlaying.jpg);
     background-size: cover;
     }
@@ -37,7 +43,7 @@ body {
 p {
     font-size: 30px;
 }
-.contactus { 
+#contactus { 
     margin-top: 10%;
 
 }
