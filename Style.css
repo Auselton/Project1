@@ -12,8 +12,9 @@ body {
   }
   
   .logo-container img {
-    width: 500px; /* Adjust as needed */
+    width: 700px; /* Adjust as needed */
     height: auto;
+    background-position: center;
   }
   .header {
     text-align: center;
@@ -26,8 +27,17 @@ body {
     background-image: url('./Images/ChildrenPlaying.jpg'); /* Replace with the path to your image */
     background-size: cover; /* Ensures the image covers the entire header */
     height: 600px; /* Set a desired height for the header (adjust as needed) */
-    /* Optional:  Additional styles like background-position, text-align, etc. */
-}
+     background-image: url(./Images/ChildrenPlaying.jpg);
+    background-size: cover;
+    }
+
 body {
     color: white;
+}
+p {
+    font-size: 30px;
+}
+.contactus { 
+    margin-top: 10%;
+
 }
