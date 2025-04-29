@@ -44,6 +44,17 @@ p {
     font-size: 30px;
 }
 #contactus { 
-    margin-top: 10%;
-
+    margin-top: 30%;
+    margin-left: 10%;
+}
+#map {
+    margin-top: 5%;
+    padding: 0%;
+    margin-right: 35%;
+}
+#Generalinfo {
+    margin-right: 0%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    
 }
